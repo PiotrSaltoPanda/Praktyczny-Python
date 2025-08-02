@@ -1,7 +1,0 @@
-Lista miesięcznych wydatków:
-Mieszkanie 7000 zł
-Jedzenie 4000 zł
-Telefon 150.50 zł
-Benzyna 800 zł
-Ubezpieczenie 1600 zł
-Praktyczny Python 400 zł
