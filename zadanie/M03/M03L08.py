@@ -1,7 +1,7 @@
 FILENAME = "Naukowy tekst.txt"
-PUNCTION = ".,?![]{}()\"'"
+PUNCTION = ".,%?![]{}()\"'"
 
-tekst = "sukces to tylko 10 % motywacji, a 90 % dyscypliny"
+tekst = "sukces to tylko 10% motywacji, a 90% dyscypliny"
 
 with open(FILENAME, "w") as writer:
     writer.write(tekst)
@@ -26,6 +26,27 @@ for word in words:
 
 print(f"W twoim tekście liczby pojawiają się {number_count} razy.")
 print(f"Twój tekst brzmi naukowo w {(number_count / total_words) * 100:.1f}%")
+
+
+# Rozwiązanie ćwiczenia wg prowadzącego:
+
+# PUNCTUATIONS = ".,!?%"
+
+# text = ("sukces to tylko 10% motywacji, a 90% dyscypliny")
+
+# for punc in PUNCTUATIONS:
+#     text = text.replace(punc, "")
+
+# words = text.split()
+
+# numbers = 0
+
+# for word in words:
+#     if word.isnumeric():
+#         numbers += 1
+
+# scientificness = 100 * numbers / len(words)
+# print("Poziom 'naukowości' tekstu:", scientificness, "%")
 
 
 
